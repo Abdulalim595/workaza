@@ -1,0 +1,1378 @@
+/*===================== REUSABLE  CSS AREA START =====================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  font-family: 'Inter', sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+a.btns:hover {
+  color: #fff;
+}
+.section__area {
+  margin-bottom: 100px;
+}
+.title {
+  margin-bottom: 56px;
+}
+.title h2 {
+  color: var(--text-primary, #000);
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 56px; /* 116.667% */
+}
+.title p {
+  color: var(--text-primary, #000);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 122.222% */
+}
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+main {
+  overflow: hidden !important;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+
+
+
+.header__btns > a:hover {
+  background: #2A9D8E;
+}
+
+.hero__slide__content a:hover {
+  background: #000;
+}
+
+.current__card__price a:hover {
+  color: var(--primary, #2A9D8E);
+}
+
+.prave__single__card:hover, .client__single__card:hover,.current__single__card:hover {
+  box-shadow: 0px 6px 30px #00000021;
+}
+
+.form__input a:hover {
+  background: #000;
+}
+
+.opportunitie__wrap a:last-child:hover {
+  background: #fff;
+  color: var(--primary, #2A9D8E);
+}
+
+.opportunitie__wrap a:first-child:hover {
+  background: #000;
+  color: #fff;
+}
+
+.footer__mail__send button:hover {
+  background: #000;
+}
+
+.copyright__social a:hover {
+  color: var(--primary, #2A9D8E);
+}
+
+.footer__list > ul li a:hover {
+  color: var(--primary, #2A9D8E);
+}
+
+.footer__contact__btn a:hover {
+  background: var(--primary, #2A9D8E);
+  border: 1px solid var(--primary, #2A9D8E);
+  color: #fff;
+}
+
+.footer__contact__btn a:hover img {
+  filter: brightness(48);
+}
+
+.kto__content a:hover {
+  background: #000;
+}
+/*===================== REUSABLE CSS AREA END =====================*/
+
+/*===================== OFFCANVAS CSS AREA START =====================*/
+.menu-close {
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  cursor: pointer;
+  transition: 0.4s;
+  border: 1px solid #fff;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offcanvas__logo {
+  max-width: 131px;
+  width: 100%;
+  margin-left: 24px;
+  margin-bottom: 48px;
+}
+
+.menu-close img {
+  width: 24px;
+}
+
+.offcanvas-area {
+  position: fixed;
+  left: -100%;
+  height: 100%;
+  width: 360px;
+  z-index: 9999;
+  padding-top: 24px;
+  background: #fff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  visibility: hidden;
+  top: 0;
+  overflow-y: scroll;
+}
+
+.offcanvas-area.active {
+  left: 0;
+  visibility: visible;
+}
+
+.offcanvas-area .main-menu > ul li a {
+  color: var(--text-primary, #000);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: -0.36px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.offcanvas-area .main-menu > ul li a span {
+  border-radius: 99px;
+  background: var(--primary, #2A9D8E);
+  padding: 2px 8px;
+  color: #FFF;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.2px;
+  display: inline-block;
+}
+
+.aside_ul li a {
+  position: relative;
+}
+
+img.list_angle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 16px;
+}
+
+.offcanvas-area .main-menu > ul li a:hover {
+  color: #fff !important;
+  background: #000;
+}
+.offcanvas-area .main-menu > ul li:first-child a {
+  border-top: 1px solid #fff;
+}
+
+.offcanvas-area .main-menu > ul li a:hover,
+.offcanvas-area .main-menu > ul li a[aria-expanded="true"] {
+  color: #d5d5d5;
+}
+
+.offcanvas-menu .main-menu ul {
+  display: block;
+  padding-left: 0;
+  /* margin-bottom: 35px; */
+  list-style: none;
+}
+
+.offcanvas__form__select .f-group {
+  margin-left: 24px;
+  margin-top: 32px;
+  max-width: 72px;
+}
+
+.main-menu > a {
+  border-radius: 8px;
+  background: var(--text-primary, #000);
+  height: 42px;
+  width: 110px;
+  margin-left: 24px;
+  margin-top: 16px;
+  color: #fff;
+}
+
+.offcanvas-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  z-index: 99;
+}
+
+.offcanvas-overlay.active {
+  opacity: 0.4;
+  visibility: visible;
+}
+
+.offcanvas-area {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.offcanvas-area::-webkit-scrollbar {
+  display: none;
+}
+/*===================== OFFCANVAS CSS AREA END =====================*/
+
+
+/*===================== HEADER CSS AREA START =====================*/
+.f-dropdown {
+  --max-scroll: 3;
+  position: relative;
+  z-index: 10;
+}
+.f-dropdown select {
+  display: none;
+}
+.f-dropdown > span {
+  cursor: pointer;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #bbb;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.f-dropdown > span > span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 12px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.f-dropdown > span img {
+  width: 25px;
+  margin-right: 6px;
+}
+.f-dropdown > span:before, .f-dropdown > span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8px;
+  height: 2px;
+  border-radius: 1px;
+  top: 50%;
+  right: 12px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+
+.f-group > img {
+  position: absolute;
+  width: 10px;
+  top: 9px;
+  right: -5px;
+}
+
+.f-dropdown > span:before {
+  display: none;
+}
+.f-dropdown > span:after {
+  display: none;
+}
+.f-dropdown ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 88px;
+  max-height: calc(var(--max-scroll) * 46px);
+  top: 20px;
+  z-index: 1;
+  left: 0px;
+  background: #FFF;
+  border: 1px solid #CCC;
+  border-radius: 6px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transform-origin: 0 0;
+  transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.3s cubic-bezier(0.4, 0.6, 0.5, 1.32);
+  transform: translate(0, 5px);
+}
+.f-dropdown ul li {
+  padding: 0;
+  margin: 0;
+}
+.f-dropdown ul li a {
+  cursor: pointer;
+  display: block;
+  padding: 8px 12px;
+  color: #000;
+  text-decoration: none;
+  outline: none;
+  position: relative;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+.f-dropdown ul li a img {
+  width: 25px;
+  margin-right: 6px;
+}
+.f-dropdown ul li a:hover {
+  color: #5C6BC0;
+}
+.f-dropdown ul li.active a {
+  color: #FFF;
+  background: #303F9F;
+}
+.f-dropdown ul li.active a:before, .f-dropdown ul li.active a:after {
+  --scale: 0.6;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 2px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  opacity: 0;
+  background: #FFF;
+  transition: all 0.2s ease;
+  display: none;
+}
+.f-dropdown ul li.active a:before {
+  transform: rotate(45deg) scale(var(--scale));
+}
+.f-dropdown ul li.active a:after {
+  transform: rotate(-45deg) scale(var(--scale));
+}
+.f-dropdown ul li.active a:hover:before, .f-dropdown ul li.active a:hover:after {
+  --scale: 0.9;
+  opacity: 1;
+}
+.f-dropdown ul li:first-child a {
+  border-radius: 6px 6px 0 0;
+}
+.f-dropdown ul li:last-child a {
+  border-radius: 0 0 6px 6px;
+}
+.f-dropdown.disabled {
+  opacity: 0.7;
+}
+.f-dropdown.disabled > span {
+  cursor: not-allowed;
+}
+.f-dropdown.filled > span {
+  color: #fff;
+}
+.f-dropdown.open {
+  z-index: 15;
+}
+.f-dropdown.open > span {
+  border-color: #AAA;
+}
+.f-dropdown.open > span:before, .f-dropdown.open > span:after {
+  background: #000;
+}
+.f-dropdown.open > span:before {
+  transform: scale(0.96, 0.8) rotate(-50deg);
+}
+.f-dropdown.open > span:after {
+  transform: scale(0.96, 0.8) rotate(50deg);
+}
+.f-dropdown.open ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, 12px);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s cubic-bezier(0.4, 0.6, 0.5, 1.32);
+}
+
+/* --------------------------- */
+.f-group {
+  max-width: 122px;
+  margin: 0 auto;
+  text-align: left;
+  position: relative;
+}
+
+.hero__single__form__select {
+  margin-right: 30px;
+}
+
+.f-group > img {
+  filter: brightness(0);
+  width: 16px;
+  margin-right: -4px;
+}
+
+.f-group select {
+  width: 100%;
+}
+
+.f-control {
+  font-size: 14px;
+  line-height: normal;
+  color: #000;
+  display: inline-block;
+  background-color: #ffffff;
+  border: #ccc 1px solid;
+  border-radius: 6px;
+  padding: 8px 12px;
+  outline: none;
+  max-width: 250px;
+}
+
+label {
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+header#header__area {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: transparent;
+  z-index: 11;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+
+.header__nav__btns {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header__nav__btns ul {
+  align-items: center;
+  gap: 48px;
+  margin-right: 132px;
+}
+
+.header__nav__btns ul li a {
+  color: var(--text-primary, #000);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+  letter-spacing: -0.3px;
+  position: relative;
+}
+
+.header__nav__btns > ul li a span {
+  border-radius: 99px;
+  background: var(--primary, #2A9D8E);
+  padding: 2px 8px;
+  color: #FFF;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.2px;
+  position: absolute;
+  top: -11px;
+}
+
+.header__nav__btns ul li a:hover {
+  color: var(--primary, #2A9D8E);
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header__phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid var(--text-primary, #000);
+  gap: 8px;
+  height: 42px;
+  padding: 0px 16px;
+  flex-shrink: 0;
+}
+
+.header__phone img {
+  width: 24px;
+}
+
+.header__phone p {
+  color: var(--primary, #2A9D8E);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 145.455% */
+}
+
+.header__phone p a {
+  color: var(--text-primary, #000);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 146.667% */
+  letter-spacing: -0.3px;
+}
+
+.header__btns > a {
+  border-radius: 8px;
+  background: var(--text-primary, #000);
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 146.667% */
+  letter-spacing: -0.3px;
+  height: 42px;
+  padding: 0px 16px;
+}
+/*===================== HEADER CSS AREA END =====================*/
+
+/*===================== HERO CSS AREA START =====================*/
+.hero__area {
+  background: #F9F3E9;
+  position: relative;
+}
+
+.hero__wrap {
+  padding: 208px 0px 216px;
+  position: relative;
+}
+
+.hero__slide__content {
+  text-align: center;
+}
+
+.hero__slide__content h1 {
+  color: var(--text-primary, #000);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74px; /* 115.625% */
+  letter-spacing: -3.2px;
+}
+
+.hero__slide__content h1 span {
+  color: #2A9D8E;
+}
+
+.hero__slide__content a {
+  border-radius: 99px;
+  background: var(--primary, #2A9D8E);
+  color: var(--White, #FFF);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 146.667% */
+  letter-spacing: -0.3px;
+  max-width: 235px;
+  height: 50px;
+  margin: 48px auto 0px;
+}
+
+.hero__slide__content img {
+  max-width: 281px;
+  margin-right: -180px;
+}
+.hero__area > img {
+  position: absolute;
+}
+img.dot1 {
+  position: absolute;
+  bottom: -28px;
+  left: 34px;
+  width: 172px;
+}
+img.dot2 {
+  top: 128px;
+  right: 0px;
+  width: 100px;
+}
+/*===================== HERO CSS AREA END =====================*/
+
+/*===================== CURRENT CSS AREA START =====================*/
+.current__single__card {
+  margin: 0px 15px;
+  padding: 24px;
+  border-radius: 16px;
+border: 1px solid #E7F1ED;
+background: var(--White, #FFF);
+}
+
+.current__card__img {
+  margin-bottom: 16px;
+}
+
+.current__card__content h4 {
+  color: var(--text-primary, #000);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+
+.current__card__content p {
+  color: var(--text-primary, #000);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.current__card__content p img {
+  width: 16px;
+}
+
+.current__card__content p:nth-child(2) {
+  margin: 8px 0px;
+}
+
+.current__card__price {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current__card__price h4 {
+  color: var(--text-primary, #000);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px; /* 116.667% */
+}
+
+.current__card__price a img {
+  width: 16px;
+}
+
+.current__card__price a {color: var(--primary, #2A9D8E);font-size: 14px;font-style: normal;font-weight: 700;line-height: 22px; /* 157.143% */letter-spacing: -0.28px;text-decoration-line: underline;}
+
+button.slide-arrow {
+  background-color: #fff !important;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #DBDDE1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+button.slide-arrow img {
+  width: 12px;
+}
+
+.current__slider {
+  position: relative;
+}
+
+.prev-arrow {
+  left: -65px;
+}
+
+.next-arrow {
+  right: -65px;
+}
+
+.slick-list {
+  padding: 40px 0px;
+}
+
+.current__title {
+  margin-bottom: 16px !important;
+}
+
+section#current__area {
+  margin-bottom: 60px;
+}
+/*===================== CURRENT CSS AREA END =====================*/
+
+/*===================== PRAVE CSS AREA START =====================*/
+section#prave__area {
+  padding: 100px 0px;
+  background: #ECF9F4;
+  margin-bottom: 100px;
+}
+
+.prave__title {
+  max-width: 562px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prave__title h2 {
+  margin-bottom: 24px;
+}
+
+.prave__single__card img {
+  width: 80px;
+}
+
+.prave__single__card {
+  padding: 30px;
+  border-radius: 24px;
+  background: var(--Primary-White, #FFF);
+  max-width: 416px;
+  height: 402px;
+}
+
+.prave__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.prave__single__card h5 {
+  color: var(--text-primary, #000);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  margin: 32px 0px 10px;
+}
+
+.prave__single__card p {
+  color: var(--text-primary, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+/*===================== PRAVE CSS AREA END =====================*/
+
+/*===================== CLIENT CSS AREA START =====================*/
+.client__title.title h2 {
+  margin-bottom: 16px;
+}
+
+.client__single__card {
+  border-radius: 16px;
+  background: var(--Primary-Color-primary_5, #F5F5F5);
+  padding: 24px;
+  margin: 0px 15px;
+}
+
+.client__single__card h6 {
+  color: var(--text-primary, #000);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+}
+
+.client__single__card p {
+  color: var(--text-primary, #000);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  margin: 16px 0px 30px;
+}
+
+.client__profile {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.client__profile img {
+  width: 64px !important;
+}
+
+.client__name h6 {
+  color: var(--text-primary, #000);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px; /* 150% */
+  margin-bottom: 4px;
+}
+
+.client__name span {
+  color: var(--text-primary, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.slick-dots li button {
+  border-radius: 18px;
+  opacity: 0.2;
+  background: var(--Typography-Color-typography_main, #1B1B1B);
+  width: 27.892px;
+  height: 4px;
+  flex-shrink: 0;
+  font-size: 0px;
+}
+
+ul.slick-dots {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 56px;
+}
+
+.slick-dots li.slick-active button {
+  background: var(--Typography-Color-typography_main, #1B1B1B);
+  opacity: 1;
+}
+
+.client__slider .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  margin-right: -500px;
+}
+
+.client__title {
+  margin-bottom: 16px;
+}
+
+ul.slick-dots {
+  margin-top: 16px;
+}
+/*===================== CLIENT CSS AREA END =====================*/
+
+/*===================== JOB CSS AREA START =====================*/
+section#job__area {
+  padding: 100px 0px;
+  background: var(--primary, #2A9D8E);
+  position: relative;
+}
+
+section#job__area img {
+  position: absolute;
+}
+
+img.job_shape1 {
+  width: 416px;
+  bottom: 0px;
+  left: 0px;
+}
+
+img.job_shape2 {
+  width: 40%;
+  top: 10%;
+  right: 10%;
+}
+
+.job__wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.job__title.title * {
+  text-align: start !important;
+  color: #fff;
+}
+
+.job__title.title h2 {
+  text-align: start;
+  margin-bottom: 16px;
+}
+
+.job__title.title p {
+  text-align: start;
+}
+
+.job__content img {
+  max-width: 372px;
+}
+
+.job__form {
+  border-radius: 24px;
+  background: var(--white, #FFF);
+  padding: 40px;
+  position: relative;
+}
+
+.job__form h3 {
+  margin-bottom: 24px;
+  color: var(--Typography-Color-typography_main, #000);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 125% */
+  text-align: center;
+}
+
+.form__input {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.form__input__single {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: space-between;
+}
+
+.form__input__single input,.form__input textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--Typography-Color-typography_5, #D6D6D6);
+  background: #FFF;
+  height: 56px;
+  padding: 0px 16px;
+  color: var(--Typography-Color-typography_3, #878787);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+.form__input textarea {
+  height: 116px;
+}
+
+.form__input a {
+  border-radius: 99px;
+  background: var(--primary, #2A9D8E);
+  height: 50px;
+  color: var(--White, #FFF);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 146.667% */
+  letter-spacing: -0.3px;
+  margin-top: 10px;
+}
+/*===================== JOB CSS AREA END =====================*/
+
+/*===================== FAQ CSS AREA START =====================*/
+.faq__wrap {
+  max-width: 864px;
+  margin: 0 auto;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.faq__wrap {
+  max-width: 864px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  border-radius: 0px !important;
+  border-bottom: 1px solid #D4DBE0 !important;
+  border: none;
+  padding: 36px 0px !important;
+}
+
+button.accordion-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-primary, #000) !important;
+  font-size: 28px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+   /* 142.857% */
+  border: none !important;
+  padding: 0px !important;
+}
+
+button.accordion-button img {
+  width: 14px;
+}
+
+.faq__content p {
+  color: var(--text-primary, #000);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--text-primary, #000) !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:focus {
+  z-index: 0 !important;
+  border-color: transparent !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  padding: 0px !important;
+  margin-top: 16px;
+}
+/*===================== FAQ CSS AREA END =====================*/
+
+/*===================== KTO CSS AREA START =====================*/
+section#kto__area {
+  padding: 100px 0px;
+  background: #EFF7F6;
+  position: relative;
+}
+
+section#kto__area > img {
+  width: 14%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.kto__title.title h2 {
+  text-align: start;
+}
+
+.kto__title.title {
+  margin-bottom: 32px;
+}
+
+.kto__content p:nth-child(2) {
+  color: var(--text-primary, #000);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+  margin-bottom: 24px;
+}
+
+.kto__content p:nth-child(3),.kto__content p:nth-child(4) {
+  color: var(--text-primary, #000);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+
+.kto__content p:nth-child(3) {
+  margin-bottom: 16px;
+}
+
+.kto__content a {
+  margin-top: 24px;
+  color: var(--White, #FFF);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 146.667% */
+  letter-spacing: -0.3px;
+  border-radius: 99px;
+  background: var(--primary, #2A9D8E);
+  width: 164px;
+  height: 50px;
+}
+/*===================== KTO CSS AREA END =====================*/
+
+/*===================== OPPORTUNITIES CSS AREA START =====================*/
+.opportunitie__area {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  margin-bottom: 60px;
+  padding: 116px 0px;
+}
+
+.opportunitie__title.title {
+  margin-bottom: 32px;
+}
+
+.opportunitie__title.title h2 {
+  color: #fff;
+}
+
+.opportunitie__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.opportunitie__wrap a {
+  border-radius: 8px;
+  height: 42px;
+  padding: 0px 32px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 146.667% */
+  letter-spacing: -0.3px;
+}
+
+.opportunitie__wrap a:first-child {
+  color: #2A9D8E;
+  background: #fff;
+}
+
+.opportunitie__wrap a:last-child {
+  background: var(--text-primary, #000);
+  color: #fff;
+}
+/*===================== OPPORTUNITIES CSS AREA END =====================*/
+
+/*===================== FOOTER CSS AREA START =====================*/
+.footer__wrap {
+  padding-bottom: 32px;
+  border-bottom: 1px solid #DBDDE1;
+}
+
+.footer__logo__contact a img {
+  max-width: 223px;
+}
+
+.footer__logo__contact p {
+  color: var(--text-primary, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin: 24px 0px;
+}
+
+.footer__contact__btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer__contact__btn a {
+  border-radius: 8px;
+  border: 1px solid var(--text-primary, #000);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--text-primary, #000);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  height: 42px;
+  padding: 0px 16px;
+  flex-shrink: 0;
+}
+
+.footer__contact__btn > a  img {
+  width: 20px;
+  filter: brightness(0.1);
+}
+
+.footer__list h6,.footer__mail h6 {
+  color: var(--text-primary, #000);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+  margin-bottom: 16px;
+}
+
+.footer__list > ul li a {
+  color: var(--text-primary, #000);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.footer__mail h6 {
+  margin-bottom: 8px;
+}
+
+.footer__mail p {
+  color: var(--text-primary, #000);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  margin-bottom: 24px;
+}
+
+.footer__mail__send {
+  border-radius: 8px;
+  border: 1px solid #E4E6EE;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-left: 16px;
+}
+
+.footer__mail__send button {
+  height: 48px;
+  width: 82px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px; /* 146.667% */
+  letter-spacing: -0.3px;
+  background: var(--primary, #2A9D8E);
+}
+
+.footer__mail__send input {
+  color: #848E8D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: -0.32px;
+}
+
+.footer__mail span {
+  display: inline-block;
+  margin-top: 8px;
+  color: #828282;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 183.333% */
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+
+.copyright span {
+  color: #828282;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+
+.copyright__social {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.copyright__social a {
+  color: #000;
+  font-size: 20px;
+}
+/*===================== FOOTER CSS AREA END =====================*/

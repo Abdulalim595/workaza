@@ -1,0 +1,389 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .current__card__content h4 {
+    font-size: 18px;
+}
+}
+@media (min-width: 320px) and (max-width: 1399px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+  }
+
+  .header__logo {
+    width: 180px;
+}
+
+.header__nav__btns ul {
+    gap: 30px;
+    margin-right: 58px;
+}
+
+.header__wrap {
+    padding: 19px 0px;
+}
+
+.hero__wrap {
+    padding: 190px 0px;
+}
+
+.hero__slide__content h1 {
+    font-size: 50px;
+    line-height: 63px;
+}
+
+.hero__slide__content img {
+    max-width: 230px;
+    margin-left: -59px !important;
+}
+
+.section__area {
+    margin-bottom: 80px;
+}
+
+section#prave__area {
+    padding: 80px 0px;
+}
+
+.title h2 {
+    font-size: 40px;
+}
+
+.prave__title h2 {
+    margin-bottom: 18px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.opportunitie__area {
+    padding: 80px 0px;
+}
+
+section#kto__area {
+    padding: 80px 0px;
+}
+
+section#job__area {
+    padding: 80px 0px;
+}
+
+.accordion-item {
+    padding: 20px 0px !important;
+}
+
+button.accordion-button {
+    font-size: 24px !important;
+}
+
+.kto__title.title {
+    margin-bottom: 20px;
+}
+}
+
+/* LG Device :1200px. */
+@media (min-width: 320px) and (max-width: 1199px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 960px;
+  }
+
+  .header__phone p a {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.header__phone p {
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.header__phone img {
+    width: 18px;
+}
+
+.header__nav__btns ul li a span {
+  padding: 2px 5px;
+  right: -16px;
+}
+
+.header__phone {padding: 0px 6px;}
+
+.header__btns > a {
+    font-size: 13px;
+}
+
+.header__logo {
+    width: 132px;
+}
+
+.hero__slide__content h1 {
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.hero__slide__content img {
+  width: 181px;
+  margin-left: -95px !important;
+}
+
+.hero__slide__content a {
+  margin-top: 32px;
+}
+
+.hero__wrap {
+  padding: 160px 0px;
+}
+
+img.dot2 {
+  width: 80px;
+}
+
+img.dot1 {
+  width: 140px;
+}
+
+section#prave__area {
+  padding: 60px 0px;
+  margin-bottom: 60px;
+}
+
+section#job__area {
+  padding: 60px 0px;
+}
+
+section#kto__area {
+  padding: 60px 0px;
+}
+
+.opportunitie__area {
+  padding: 60px 0px;
+}
+
+.footer__mail {
+  margin-left: -40px;
+}
+
+.footer__list {
+  margin-left: 30px;
+}
+
+.title h2 {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.opportunitie__title.title h2 {
+  font-size: 28px;
+}
+
+img.job_shape1 {
+  width: 240px;
+}
+
+.job__form {
+  padding: 22px;
+  border-radius: 15px;
+}
+}
+
+/* MD Device :768px. */
+@media (min-width: 320px) and (max-width: 991px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 720px;
+  }
+
+  .section__area {
+    margin-bottom: 60px;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+.title p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.hero__wrap {
+  padding: 155px 0px;
+}
+
+button.slide-arrow {
+  top: 107% !important;
+  transform: translateY(0px) !important;
+}
+
+.prev-arrow {
+  left: 39%;
+}
+
+.next-arrow {
+  right: 39%;
+}
+
+section#current__area {
+  margin-bottom: 141px;
+}
+
+.prave__single__card {
+  padding: 16px;
+  height: auto;
+}
+
+.footer__mail {
+  margin-left: 0px;
+}
+
+.kto__content p:nth-child(2) {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.kto__content p:nth-child(3), .kto__content p:nth-child(4) {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.kto__content a {
+  margin-top: 16px;
+}
+
+button.accordion-button {
+  font-size: 20px !important;
+  line-height: 32px !important;
+}
+
+.job__title.title {
+  margin-bottom: 8px;
+}
+
+img.dot1 {
+  width: 137px;
+  left: -42px;
+  bottom: 14px;
+}
+
+.client__single__card p {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+ul.slick-dots {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 32px;
+}
+
+.client__slider .slick-list {
+  margin-right: 0px;
+}
+
+}
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .opportunitie__wrap {
+    flex-direction: column;
+}
+
+.opportunitie__wrap a {
+    max-width: 203px !important;
+    width: 100%;
+}
+
+  img.dot2 {
+    width: 80px;
+    top: 92px;
+    width: 45px;
+}
+
+  .hero__slide__content h1 br {
+    display: none;
+}
+
+.hero__slide__content img {
+  margin-left: -178px !important;
+}
+
+  .prev-arrow {
+    left: 36%;
+}
+.next-arrow {
+  right: 36%;
+}
+  img.job_shape2 {
+    display: none;
+  }
+
+  .form__input__single {
+    flex-direction: column;
+}
+
+  .footer__list {
+    margin-left: 0px;
+}
+
+.footer__contact__btn {
+    flex-direction: column;
+    align-items: start;
+}
+
+.footer__wrap {
+    padding-bottom: 16px;
+}
+
+.copyright {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  .offcanvas-area {
+    width: 100%;
+  }
+
+  .header__btns {
+    gap: 10px;
+    margin-left: 8px;
+}
+
+  .next-arrow {
+    right: 28%;
+}
+.prev-arrow {
+  left: 28%;
+}
+}
+
+/* SM Small Device :576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 540px;
+  }
+
+}

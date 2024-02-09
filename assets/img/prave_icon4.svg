@@ -1,0 +1,38 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.3" cx="61" cy="61" r="19" fill="#2A9D8E"/>
+<g opacity="0.1">
+<circle cx="1.5" cy="1.5" r="1.5" fill="#1E2875"/>
+<circle cx="8.5" cy="1.5" r="1.5" fill="#1E2875"/>
+<circle cx="15.5" cy="1.5" r="1.5" fill="#1E2875"/>
+<circle cx="22.5" cy="1.5" r="1.5" fill="#1E2875"/>
+<circle cx="29.5" cy="1.5" r="1.5" fill="#1E2875"/>
+<circle cx="1.5" cy="7.5" r="1.5" fill="#1E2875"/>
+<circle cx="8.5" cy="7.5" r="1.5" fill="#1E2875"/>
+<circle cx="15.5" cy="7.5" r="1.5" fill="#1E2875"/>
+<circle cx="22.5" cy="7.5" r="1.5" fill="#1E2875"/>
+<circle cx="29.5" cy="7.5" r="1.5" fill="#1E2875"/>
+<circle cx="1.5" cy="13.5" r="1.5" fill="#1E2875"/>
+<circle cx="8.5" cy="13.5" r="1.5" fill="#1E2875"/>
+<circle cx="15.5" cy="13.5" r="1.5" fill="#1E2875"/>
+<circle cx="22.5" cy="13.5" r="1.5" fill="#1E2875"/>
+<circle cx="29.5" cy="13.5" r="1.5" fill="#1E2875"/>
+<circle cx="1.5" cy="19.5" r="1.5" fill="#1E2875"/>
+<circle cx="8.5" cy="19.5" r="1.5" fill="#1E2875"/>
+<circle cx="15.5" cy="19.5" r="1.5" fill="#1E2875"/>
+<circle cx="22.5" cy="19.5" r="1.5" fill="#1E2875"/>
+<circle cx="29.5" cy="19.5" r="1.5" fill="#1E2875"/>
+<circle cx="1.5" cy="25.5" r="1.5" fill="#1E2875"/>
+<circle cx="8.5" cy="25.5" r="1.5" fill="#1E2875"/>
+<circle cx="15.5" cy="25.5" r="1.5" fill="#1E2875"/>
+<circle cx="22.5" cy="25.5" r="1.5" fill="#1E2875"/>
+<circle cx="29.5" cy="25.5" r="1.5" fill="#1E2875"/>
+<circle cx="1.5" cy="31.5" r="1.5" fill="#1E2875"/>
+<circle cx="8.5" cy="31.5" r="1.5" fill="#1E2875"/>
+<circle cx="15.5" cy="31.5" r="1.5" fill="#1E2875"/>
+<circle cx="22.5" cy="31.5" r="1.5" fill="#1E2875"/>
+<circle cx="29.5" cy="31.5" r="1.5" fill="#1E2875"/>
+</g>
+<rect x="35" y="13" width="8" height="54" rx="4" stroke="#2A9D8E" stroke-width="4"/>
+<path d="M43 33.5H58.5L66 41L59 48H43" stroke="#2A9D8E" stroke-width="4" stroke-linejoin="round"/>
+<path d="M35 19L19.5 19L12 26.5L19 33.5H35" stroke="#2A9D8E" stroke-width="4" stroke-linejoin="round"/>
+</svg>
